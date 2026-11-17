@@ -3,7 +3,7 @@ import { Demo } from "@/components/Demo";
 import { Privacy } from "@/components/Privacy";
 import { CopyEmail } from "@/components/CopyEmail";
 import { Logo, Mark } from "@/components/Logo";
-import { IconArrow, IconCamera, IconChip, IconNo, IconPaper, IconPhone, IconTimer } from "@/components/icons";
+import { IconArrow, IconCamera, IconChip, IconNo, IconPhone, IconTimer } from "@/components/icons";
 import { mailto } from "@/lib/site";
 
 const STEPS = [
@@ -198,11 +198,9 @@ export default function Home() {
             <div className="story-copy">
               <h2>It started as a college project.</h2>
               <p>
-                An Arduino cradle and a camera that watched a baby&apos;s face became a published paper. The camera
-                worked on a three-month-old. Nineri is that idea, rebuilt to be private from the start.
-              </p>
-              <p className="paper">
-                <IconPaper size={18} /> Remote Monitoring System for Infants
+                An Arduino cradle and a camera that watched a baby&apos;s face. The camera worked on a three-month-old.
+                The research never became a paper — the idea felt too incremental. Then edge AI changed what was possible
+                on a device. Nineri is that original idea, rebuilt with on-device inference so the video never leaves the room.
               </p>
             </div>
           </div>
